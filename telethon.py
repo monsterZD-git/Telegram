@@ -8,7 +8,7 @@ api_hash = ''
 
 client = TelegramClient('session_name', api_id, api_hash)
 
-@client.on(events.NewMessage(from_users=['USDTEMA4_bot']))
+@client.on(events.NewMessage(from_users=['NAME_T']))
 async def indicatum_handler(event):
     message = event.message.message
     print(message)
